@@ -1,0 +1,69 @@
+
+---Downloaded files---
+The import files for: Houzez12 were successfully downloaded!
+Initial max execution time = 60
+Files info:
+Site URL = https://ml22p.at
+Data file = /home/ml22p/public_html/wp-content/uploads/2023/06/demo-content-import-file_2023-06-15__20-36-16.xml
+Widget file = /home/ml22p/public_html/wp-content/uploads/2023/06/demo-widgets-import-file_2023-06-15__20-36-16.json
+Customizer file = not defined!
+Redux files:
+houzez_options -> /home/ml22p/public_html/wp-content/uploads/2023/06/demo-redux-import-file_0-2023-06-15__20-36-16.json 
+
+
+---ocdi/before_content_import---
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "agent-3-350x350" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "agent-3-350x350" (Media)
+
+
+---Importing widgets---
+Default Sidebar : 
+
+Search - Blog Search - Imported
+Categories - Topics - Imported
+Tag Cloud - Tags - Imported
+
+Search Sidebar : 
+
+Navigation Menu - Pages Menu - Imported
+
+Agent Sidebar : 
+
+HOUZEZ: Featured Properties - Featured - Imported
+HOUZEZ: Latest Posts - Latest Posts - Imported
+
+
+
+---Importing Redux settings---
+Redux settings import for: houzez_options finished successfully!
+
+---ocdi/after_import---
+
