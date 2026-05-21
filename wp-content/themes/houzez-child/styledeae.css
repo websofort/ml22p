@@ -17,3 +17,178 @@ Template: houzez
 
 /* Your CSS code goes here
 -------------------------------------- */
+
+/* Center header logo (desktop) — anchored to full header bar so JS/slider can't shift it */
+.header-v5 .header-top {
+  position: relative !important;
+}
+
+.header-v5 .header-top .header-social-icons,
+.header-v5 .header-top .login-register {
+  display: none !important;
+}
+
+.header-v5 .header-top .header-inner-wrap > .d-flex {
+  width: 100% !important;
+  justify-content: center !important;
+  align-items: center !important;
+  min-height: 110px;
+}
+
+.header-v5 .header-top .logo.logo-desktop {
+  position: absolute !important;
+  left: 50% !important;
+  top: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  width: auto !important;
+  max-width: none !important;
+  margin: 0 !important;
+  z-index: 10 !important;
+  float: none !important;
+}
+
+.header-v5 .header-top .logo.logo-desktop img {
+  position: static !important;
+  top: auto !important;
+  margin: 0 auto !important;
+  display: block !important;
+}
+
+/* Center header logo (mobile) */
+.header-mobile-left {
+  min-width: 56px;
+  flex-shrink: 0;
+}
+
+.header-mobile-center {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.header-mobile-center .logo {
+  margin: 0 !important;
+  width: auto !important;
+}
+
+.header-mobile-center .logo img {
+  position: static !important;
+  margin: 0 auto !important;
+}
+
+/* Center footer logo */
+.footer-bottom-wrap-v3 .footer_logo {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-bottom-wrap-v3 .footer_logo img {
+  margin: 0 auto;
+}
+
+.header-v5 .header-top .header-social-icons,
+.header-v5 .header-top .logo.logo-desktop,
+.header-v5 .header-top .login-register,
+.header-v5 .header-top .logged-in-nav-wrap {
+  width: auto !important;
+}
+
+.header-v5 .header-top .navigation-main {
+  width: 100% !important;
+  text-align: center !important;
+}
+
+/* Mobile & tablet: white header, compact logo */
+@media (max-width: 991.98px) {
+  .header-mobile {
+    background-color: #ffffff !important;
+    border-bottom: 1px solid #ececec;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  }
+
+  .header-mobile .toggle-button-left,
+  .header-mobile .toggle-button-right {
+    color: #201559 !important;
+  }
+
+  .header-mobile .logo img {
+    max-height: 38px !important;
+    width: auto !important;
+    height: auto !important;
+  }
+}
+
+/* Tablet landscape: slightly smaller desktop logo */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .header-v5 .header-top .logo.logo-desktop img {
+    max-height: 70px;
+    width: auto !important;
+    height: auto !important;
+  }
+
+  .header-v5 .header-top .header-inner-wrap > .d-flex {
+    min-height: 90px;
+  }
+}
+
+/* Homepage slider: readable caption on mobile/tablet */
+@media (max-width: 991.98px) {
+  .home .slider-revolution-wrap {
+    position: relative;
+  }
+
+  .home #slider-1-slide-112-layer-1,
+  .home #slider-1-slide-112-layer-2,
+  .home #slider-1-slide-112-layer-3,
+  .home #slider-1-slide-112-layer-4,
+  .home #slider-1-slide-112-layer-5,
+  .home #slider-1-slide-112-layer-10 {
+    display: none !important;
+    visibility: hidden !important;
+  }
+
+  .home #slider-1-slide-112-layer-7 {
+    display: none !important;
+  }
+
+  .home .ml22p-slider-caption {
+    position: static;
+    z-index: 1;
+    padding: 12px 16px;
+    background: #201559;
+    color: #ffffff;
+  }
+
+  .home .ml22p-slider-caption h2 {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 0 4px;
+    color: #ffffff;
+    line-height: 1.25;
+  }
+
+  .home .ml22p-slider-caption p {
+    font-size: 13px;
+    line-height: 1.45;
+    margin: 0 0 8px;
+    color: #ffffff;
+  }
+
+  .home .ml22p-slider-caption a {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 700;
+    color: #cbb492;
+    text-decoration: none;
+  }
+
+  .home .ml22p-slider-caption a:hover {
+    color: #ffffff;
+  }
+}
+
+@media (min-width: 992px) {
+  .home .ml22p-slider-caption {
+    display: none;
+  }
+}
